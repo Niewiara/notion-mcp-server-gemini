@@ -40,8 +40,7 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -445,75 +444,36 @@
                             "date": {
                               "type": "object",
                               "properties": {
-                                "equals": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "after": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "on_or_before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
+                                "equals": { "type": "string" },
+                                "before": { "type": "string" },
+                                "after": { "type": "string" },
+                                "on_or_before": { "type": "string" },
                                 "on_or_after": {
-                                  "type": "string",
-                                  "format": "date"
+                                  "type": "string"
                                 }
                               }
                             },
                             "created_time": {
                               "type": "object",
                               "properties": {
-                                "equals": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "after": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "on_or_before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
+                                "equals": { "type": "string" },
+                                "before": { "type": "string" },
+                                "after": { "type": "string" },
+                                "on_or_before": { "type": "string" },
                                 "on_or_after": {
-                                  "type": "string",
-                                  "format": "date"
+                                  "type": "string"
                                 }
                               }
                             },
                             "last_edited_time": {
                               "type": "object",
                               "properties": {
-                                "equals": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "after": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "on_or_before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
+                                "equals": { "type": "string" },
+                                "before": { "type": "string" },
+                                "after": { "type": "string" },
+                                "on_or_before": { "type": "string" },
                                 "on_or_after": {
-                                  "type": "string",
-                                  "format": "date"
+                                  "type": "string"
                                 }
                               }
                             }
@@ -717,75 +677,36 @@
                             "date": {
                               "type": "object",
                               "properties": {
-                                "equals": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "after": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "on_or_before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
+                                "equals": { "type": "string" },
+                                "before": { "type": "string" },
+                                "after": { "type": "string" },
+                                "on_or_before": { "type": "string" },
                                 "on_or_after": {
-                                  "type": "string",
-                                  "format": "date"
+                                  "type": "string"
                                 }
                               }
                             },
                             "created_time": {
                               "type": "object",
                               "properties": {
-                                "equals": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "after": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "on_or_before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
+                                "equals": { "type": "string" },
+                                "before": { "type": "string" },
+                                "after": { "type": "string" },
+                                "on_or_before": { "type": "string" },
                                 "on_or_after": {
-                                  "type": "string",
-                                  "format": "date"
+                                  "type": "string"
                                 }
                               }
                             },
                             "last_edited_time": {
                               "type": "object",
                               "properties": {
-                                "equals": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "after": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
-                                "on_or_before": {
-                                  "type": "string",
-                                  "format": "date"
-                                },
+                                "equals": { "type": "string" },
+                                "before": { "type": "string" },
+                                "after": { "type": "string" },
+                                "on_or_before": { "type": "string" },
                                 "on_or_after": {
-                                  "type": "string",
-                                  "format": "date"
+                                  "type": "string"
                                 }
                               }
                             }
@@ -1377,8 +1298,7 @@
                     "type": "object",
                     "properties": {
                       "page_id": {
-                        "type": "string",
-                        "format": "uuid"
+                        "type": "string"
                       }
                     },
                     "required": [
@@ -1432,13 +1352,11 @@
                   },
                   "icon": {
                     "type": "string",
-                    "description": "The icon of the new page. Either an [emoji object](https://developers.notion.com/reference/emoji-object) or an [external file object](https://developers.notion.com/reference/file-object)..",
-                    "format": "json"
+                    "description": "The icon of the new page. Either an [emoji object](https://developers.notion.com/reference/emoji-object) or an [external file object](https://developers.notion.com/reference/file-object).."
                   },
                   "cover": {
                     "type": "string",
-                    "description": "The cover image of the new page, represented as a [file object](https://developers.notion.com/reference/file-object).",
-                    "format": "json"
+                    "description": "The cover image of the new page, represented as a [file object](https://developers.notion.com/reference/file-object)."
                   }
                 }
               }
@@ -1476,8 +1394,7 @@
                         "type": "string"
                       },
                       "page_id": {
-                        "type": "string",
-                        "format": "uuid"
+                        "type": "string"
                       }
                     },
                     "required": [
